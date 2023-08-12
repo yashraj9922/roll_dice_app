@@ -10,10 +10,22 @@ void main() {
         // backgroundColor: Color.fromARGB(255, 250, 209, 57),
         body: Container(
           decoration: const BoxDecoration(
-            gradient: LinearGradient(colors: Colors.accents),
+            gradient: LinearGradient(
+              colors: [Colors.amber, Colors.green],
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
+            ),
           ),
           child: const Center(
-            child: Text("HELLO WORLD"),
+            child: Text(
+              "HELLO WORLD",
+              style: TextStyle(
+                color: Color.fromARGB(255, 0, 94, 255),
+                fontSize: 20,
+                fontWeight: FontWeight.bold,
+                // fontStyle: FontStyle.italic,
+              ),
+            ),
           ),
         ),
       ),
