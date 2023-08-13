@@ -11,9 +11,9 @@ void main() {
       home: Scaffold(
         // backgroundColor: Color.fromARGB(255, 250, 209, 57),
         body: GradientContainer(colors: [
-          Colors.orange,
-          Colors.white,
-          Colors.green
+          Color.fromRGBO(255, 255, 255, 1),
+          Color.fromRGBO(103, 103, 103, 1),
+          Color.fromRGBO(0, 0, 0, 1)
         ]), //this calls the constructor function of the usr defined class
       ),
     ),
