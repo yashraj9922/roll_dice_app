@@ -10,7 +10,7 @@ void main() {
       home: Scaffold(
         // backgroundColor: Color.fromARGB(255, 250, 209, 57),
         body:
-            GradientContainer(), //this calls the constructor function of the usr defined class
+            GradientContainer(colors: [Colors.orange, Colors.white,Colors.green]), //this calls the constructor function of the usr defined class
       ),
     ),
   );
