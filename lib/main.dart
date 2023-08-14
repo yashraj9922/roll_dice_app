@@ -10,11 +10,17 @@ void main() {
       // Avoiding duplication of memory hence making App more efficicent and fast
       home: Scaffold(
         // backgroundColor: Col or.fromARGB(255, 250, 209, 57),
-        body: GradientContainer(colors: [
-          Color.fromRGBO(133, 230, 237, 1),
-          Color.fromRGBO(41, 166, 191, 1)
-        ]), //this calls the constructor function of the usr defined class
+        // body: GradientContainer.rainbow(), //this calls the constructor function of the usr defined class
+        body: GradientContainer(
+          colors: [
+            Color.fromARGB(221, 10, 10, 10),
+            // Color.fromARGB(221, 25, 25, 25),
+            Color.fromARGB(221, 10, 10, 10),
+            // Color.fromARGB(221, 25, 25, 25),
+            // Color.fromARGB(221, 5, 5, 5),
+          ],
+        ),
       ),
-    ),  
+    ),
   );
 }
