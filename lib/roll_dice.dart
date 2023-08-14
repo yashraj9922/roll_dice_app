@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+var randomizer = Random();
+
 class RollDice extends StatefulWidget {
   const RollDice({super.key});
 
@@ -15,7 +17,7 @@ class _RollDiceState extends State<RollDice> {
   var diceRoll = 1; // Declare diceRoll as a class member
 
   void rollDice() {
-    diceRoll = Random().nextInt(6) + 1;
+    diceRoll = randomizer.nextInt(6) + 1;
     //setState function will help in reexceuting build method and update the image
     setState(() {
       //passing an annomnoyus function and inside that u should perform any update to class var to object variables which will be reflecting into UI
