@@ -32,7 +32,7 @@ class _RollDiceState extends State<RollDice> {
         Text(
           '$diceRoll',
           style: const TextStyle(
-            color: Color.fromARGB(255, 255, 255, 0),
+            color: Color.fromARGB(255, 0, 0, 0),
             fontSize: 36,
             fontStyle: FontStyle.normal,
             fontWeight: FontWeight.bold,
