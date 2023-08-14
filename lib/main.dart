@@ -9,12 +9,12 @@ void main() {
       //when same widget with same data is used for multiple time in an app...it will use sam existing memory location
       // Avoiding duplication of memory hence making App more efficicent and fast
       home: Scaffold(
-        // backgroundColor: Color.fromARGB(255, 250, 209, 57),
+        // backgroundColor: Col or.fromARGB(255, 250, 209, 57),
         body: GradientContainer(colors: [
-          Color.fromRGBO(132, 239, 255, 1),
-          Color.fromRGBO(0, 191, 255, 1)
+          Color.fromRGBO(133, 230, 237, 1),
+          Color.fromRGBO(41, 166, 191, 1)
         ]), //this calls the constructor function of the usr defined class
       ),
-    ),
+    ),  
   );
 }
