@@ -16,8 +16,7 @@ class GradientContainer extends StatelessWidget {
 
   final List<Color> colors;
 
-  GradientContainer.rainbow({super.key})
-      : colors = [
+  GradientContainer.rainbow({super.key}): colors = [
           const Color.fromRGBO(204, 129, 129, 1),
           const Color.fromRGBO(232, 174, 92, 1),
           const Color.fromRGBO(230, 241, 112, 1),
